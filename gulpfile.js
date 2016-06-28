@@ -26,7 +26,7 @@ gulp.task('js', function() {
     .pipe(gulp.dest('assets/js'));
 });
 
-//HTML Prettify 2
+//HTML Prettify
 gulp.task('prettify', function() {
   gulp.src(['_html/**/*.html'])
     .pipe(prettify())
@@ -46,8 +46,8 @@ gulp.task('image', () =>
 gulp.task('watch', function() {
   gulp.watch('assets/src/sass/**/*.scss',['sass']);
   gulp.watch('assets/src/js/**/*.js',['js']);
-  gulp.watch('assets/src/images/*',['prettify']);
-  gulp.watch('_html/**/*.html',['image']);
+  gulp.watch('assets/src/images/*',['image']);
+  gulp.watch('_html/**/*.html',['prettify']);
 });
 
 
