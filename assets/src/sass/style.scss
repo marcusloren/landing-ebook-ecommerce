@@ -1,3 +1,36 @@
+//Reset
+* {
+    margin: 0;
+    padding: 0;
+}
+//Media Queries
+@media only screen and (min-width: 320px) {
+    
+    
+}
+
+@media only screen and (min-width: 480px) {} @media only screen and (min-width: 768px) {
+    #topo {
+        .container {
+            padding: 3.5%;
+        }
+    }
+}
+@media only screen and (min-width: 992px) {} @media only screen and (min-width: 1200px) {
+    .container {
+        width: 1156px;
+    }
+    
+    .google-partner{
+     img{
+     max-width:373px;
+     height:auto;    
+        
+        
+    }
+ 
+}
+}
 //Mixins
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
@@ -6,51 +39,36 @@
     -o-border-radius: $radius;
     border-radius: $radius;
 }
+@mixin box-shadow-form ($shadow_form){
+box-shadow:$shadow_form;     
+    
+    
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
 // Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,700,700italic,900italic,400italic);
-
-
 //Variáveis
-$lato_font:'Lato', sans-serif;
+$lato_font:'Lato',
+sans-serif;
 $h1_color: #252525;
 $font_italic:italic;
 $bold_italic:900;
+$light_italic:100;
 $subtit_color:#f15b27;
 $blue_sec_color:#e0eaf6;
+$fundo_form:#547dbe;
 
-//Reset
-* {
-    margin: 0;
-    padding: 0;
-}
-
-//classes
+//Classes
+.text-center{text-align:center;}
 
 
 
-//Media Queries
-
-@media only screen and (min-width : 320px) {
-        
-}
-
-    
-@media only screen and (min-width : 480px) {
-
-}
-
-    
-@media only screen and (min-width : 768px) {
-
-}
-
-    
-@media only screen and (min-width : 992px) {
-
-}
-
-    
-@media only screen and (min-width : 1200px) {
-.container{width:1156px;}    
-
-}

@@ -1,9 +1,54 @@
-#topo{
-background-color:$blue_sec_color; height:735px;
-border-top:solid 6px #2d6fa0;
-    h1{font-size:44.61px; font-family:$lato_font; letter-spacing:-2px; font-style:$font_italic; font-weight:$bold_italic;}
-    h2{font-family:$lato_font; font-size:22px; color:$subtit_color;}
-    h3{font-family:$lato_font; font-size:20px; font-style:$font_italic;}
-    h4{font-family:$lato_font; font-size:17.68px;}
+#topo {
+    background-color: $blue_sec_color;
+    min-height: 735px;
+    border-top: solid 6px #2d6fa0;
+    h1 {
+        font-size: 44.61px;
+        margin-top: 10%;
+        font-family: $lato_font;
+        letter-spacing: -2px;
+        font-style: $font_italic;
+        font-weight: $bold_italic;
+    }
+    h2 {
+        font-family: $lato_font;
+        font-size: 22px;
+        color: $subtit_color;
+        font-weight: $bold_italic;
+        letter-spacing: -1px;
+        margin-top: 0;
+    }
+    h3 {
+        font-family: $lato_font;
+        font-size: 20px;
+        font-style: $font_italic;
+        font-weight: $light_italic;
+        margin-top: 20%;
+    }
+    h4 {
+        font-family: $lato_font;
+        font-size: 17.68px;
+    }
 }
 
+.google-partner{
+    background-color:red;
+    h3{
+    padding-left:32px;
+    margin-bottom:5%;
+        
+    }
+       
+}
+.form{
+background-color:#000;    
+    
+}
+.formulario{
+    min-height:462px;
+    background-color:$fundo_form;
+    @include box-shadow-form(3px 3px 4px 0px rgba(0, 0, 0, 0.37));
+    h4{color:#fff; padding-top:20px;
+        
+    }
+}
