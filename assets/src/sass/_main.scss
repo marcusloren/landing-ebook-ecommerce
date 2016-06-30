@@ -1,0 +1,53 @@
+#clientes{
+height:115px;
+    ul{
+        margin:0 auto;    
+        li{
+        display:inline-block;    
+        list-style:none; 
+            margin-right:52px;
+            margin-top:2%;
+            &:nth-child(7){
+            margin-right:0;    
+            }   
+        } 
+    
+      
+    
+    
+}
+
+    }
+
+
+#conheca-nossa-consultoria-ecommerce{
+background-color:#323231;
+    
+    h2{
+      font-family:$lato_font;
+        font-size:35px;
+        font-style:$font_italic;
+        font-weight:$bold_italic;
+        color:#fff;
+        margin-top:90px;
+        margin-bottom:135px;
+        
+    }
+    
+    h3{
+    color:#fff;
+    font-size:19px;    
+     font-family:$font_open_sans;
+        font-weight:$bold_italic;
+        
+        
+    }
+    
+    img{
+    margin-top:97px;    
+        
+    }
+    
+    
+    
+}

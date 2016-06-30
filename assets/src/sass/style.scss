@@ -12,8 +12,15 @@
 @media only screen and (min-width: 480px) {} @media only screen and (min-width: 768px) {
     #topo {
         .container {
-            padding: 3.5%;
+            padding: 3.5% 3.5% 1.5% 3.5%;
         }
+    }
+    
+    .form{
+        width:40.7%;
+        padding:0;
+        
+        
     }
 }
 @media only screen and (min-width: 992px) {} @media only screen and (min-width: 1200px) {
@@ -43,20 +50,15 @@
 box-shadow:$shadow_form;     
 }
 
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-       -o-border-radius: $radius;
-          border-radius: $radius;
-}
 
 
 // Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,700,700italic,900italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 //Variáveis
 $lato_font:'Lato',
 sans-serif;
+$font_open_sans:'Open Sans', sans-serif;
 $h1_color: #252525;
 $font_italic:italic;
 $bold_italic:900;
@@ -64,9 +66,53 @@ $light_italic:100;
 $subtit_color:#f15b27;
 $blue_sec_color:#e0eaf6;
 $fundo_form:#547dbe;
+$bt-cl-action:#41c90c;
+$size-cl-action:268px;
 
 //Classes
 .text-center{text-align:center;}
+.text-right{text-align:right;}
 
 
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius:8px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.bt-cl-action{
+ @include border-radius(8px);
+transition: all 0.5s ease;    
+background-color:$bt-cl-action;
+color:#fff;
+width: $size-cl-action; 
+border:0;
+font-family:$lato_font;
+font-weight:bold;
+text-transform:uppercase;
+font-size:13px;
+height:47px;
+    display:block;
+    line-height:47px;
+    margin: 0 auto;
+    &:hover{
+    background-color:#33aa05;    
+        
+    }
+    
+}
 
