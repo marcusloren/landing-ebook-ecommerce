@@ -42,13 +42,19 @@ height:auto;
        padding-bottom:20px;padding-top:20px;
              
         } 
-    
-      
-    
+  
     
 }
 
     }
+    
+    .depoimento{
+    text-align:center;    
+        
+        
+    }   
+
+    
     
 }
 
@@ -73,6 +79,33 @@ height:auto;
     width:35%;    
         
     }
+    
+  .depoimento{
+     text-align:center;   
+    margin:0 auto;  
+    
+   figure{
+        
+    width:225px; 
+    float:left;
+       
+   
+    }
+      
+      p{display:table; margin: 0 auto;}  
+      
+      
+    img{
+    
+        margin-right:27px;
+        
+    } 
+    
+        
+}  
+    
+    
+    
 }  
     
     
@@ -102,7 +135,12 @@ height:115px;
 
     }
     
+     .depoimento{
+         text-align:left;
+    
 } 
+    
+}
 
 
 
@@ -187,6 +225,7 @@ $size-cl-action:268px;
 
 .bt-cl-action{
  @include border-radius(8px);
+text-align:center;    
 transition: all 0.5s ease;    
 background-color:$bt-cl-action;
 color:#fff;

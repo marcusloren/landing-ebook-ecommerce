@@ -48,7 +48,7 @@ background:url(../images/seta.png) no-repeat left 10px;
 }
 
 #depoimentos{
-background:url(../images/fundo-depoimentos.jpg) no-repeat top center;
+background:url(../images/fundo-depoimentos.jpg)  top center;
     margin-top:-20px;
     min-height:597px;
     h2{
@@ -75,18 +75,19 @@ min-height:583px;
 
 .depoimento{
     
+    
+    
     margin-bottom:15%;
     
     figure{
         
-    width:225px; 
-    float:left;
+   
     text-align:center; 
     padding-bottom:5%;
     }
     img{
     
-        margin-right:27px;
+       
         
     } 
     
@@ -108,3 +109,6 @@ min-height:583px;
     
     
 }
+
+
+
