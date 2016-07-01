@@ -58,6 +58,7 @@ background:url(../images/fundo-depoimentos.jpg) no-repeat top center;
         font-weight:$bold_italic;
         margin-left:50px;
         margin-top:86px;
+        margin-bottom:90px;
         
     }
     
@@ -67,6 +68,43 @@ background:url(../images/fundo-depoimentos.jpg) no-repeat top center;
 background:#1d5486 url(../images/bg-a-melhor-agencia.jpg);
 min-height:583px;
     
+    
+    
+}
+
+
+.depoimento{
+    
+    margin-bottom:15%;
+    
+    figure{
+        
+    width:225px; 
+    float:left;
+    text-align:center; 
+    padding-bottom:5%;
+    }
+    img{
+    
+        margin-right:27px;
+        
+    } 
+    
+    p{
+    font-family:$lato_font;
+    font-size:19px;
+        font-style:$font_italic;
+        line-height:26px;
+        
+    }
+    small{
+    @extend p;
+    font-size:14px;
+    display:block;
+    clear:right; 
+        
+        
+    }
     
     
 }
