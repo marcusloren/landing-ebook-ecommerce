@@ -1,23 +1,4 @@
-#clientes{
-height:115px;
-    ul{
-        margin:0 auto;    
-        li{
-        display:inline-block;    
-        list-style:none; 
-            margin-right:52px;
-            margin-top:2%;
-            &:nth-child(7){
-            margin-right:0;    
-            }   
-        } 
-    
-      
-    
-    
-}
 
-    }
 
 
 #conheca-nossa-consultoria-ecommerce{
@@ -30,7 +11,7 @@ background-color:#323231;
         font-weight:$bold_italic;
         color:#fff;
         margin-top:90px;
-        margin-bottom:135px;
+       
         
     }
     
@@ -47,6 +28,44 @@ background-color:#323231;
     margin-top:97px;    
         
     }
+    
+    
+    
+}
+
+.seta{
+ padding-bottom:70px;
+background:url(../images/seta.png) no-repeat left 10px;
+    margin: 90px auto 0 auto;
+    .bt-cl-action{
+    width:299px!important;
+        &:hover{
+        color:#fff;
+        text-decoration:none;    
+        }    
+    }  
+    
+}
+
+#depoimentos{
+background:url(../images/fundo-depoimentos.jpg) no-repeat top center;
+    margin-top:-20px;
+    min-height:597px;
+    h2{
+     font-family:$lato_font;
+        font-size:35px;
+        font-style:$font_italic;
+        font-weight:$bold_italic;
+        margin-left:50px;
+        margin-top:86px;
+        
+    }
+    
+}
+
+.a-melhor-agencia{
+background:#1d5486 url(../images/bg-a-melhor-agencia.jpg);
+min-height:583px;
     
     
     
