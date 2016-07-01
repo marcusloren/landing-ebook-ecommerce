@@ -51,6 +51,12 @@ background:url(../images/seta.png) no-repeat left 10px;
 background:url(../images/fundo-depoimentos.jpg)  top center;
     margin-top:-20px;
     min-height:597px;
+    
+    
+}
+
+.depoimentos{
+    
     h2{
      font-family:$lato_font;
         font-size:35px;
@@ -64,13 +70,57 @@ background:url(../images/fundo-depoimentos.jpg)  top center;
     
 }
 
+
 .a-melhor-agencia{
 background:#1d5486 url(../images/bg-a-melhor-agencia.jpg);
 min-height:583px;
+    text-align:center;
     
+    h2{
+      font-family:$lato_font;   
+      font-style:$font_italic;
+      font-size:35px; 
+        font-weight:$light_italic;
+        color:#fff;
+        margin-top:98px;
+        
+    }
     
+    h3{
+    font-family:$lato_font;   
+      font-weight:$bold_italic;
+        font-style:$font_italic;
+        text-transform:uppercase;
+        
+        
+      font-size:35px;    
+    color:#fff;   
+    width:90%;margin: 70px auto 100px auto;
+        position:relative;
+        min-height:129px;
+        padding-right:80px;
+        display:block;
+        background:url(../images/ico-decolar.png) no-repeat right 5px;
+    }
+    
+    .bt-cl-action{
+    width:299px!important;
+        &:hover{
+        color:#fff;
+        text-decoration:none;    
+        } 
+        
+        &:focus{
+         color:#fff; 
+            
+        }
+            
+       
+    }   
     
 }
+
+
 
 
 .depoimento{
@@ -94,15 +144,21 @@ min-height:583px;
     p{
     font-family:$lato_font;
     font-size:19px;
-        font-style:$font_italic;
-        line-height:26px;
-        
+    font-style:$font_italic;
+    line-height:26px;
+     background:url(../images/stars-line.png) no-repeat top left;
+    padding-top:20px;
+    max-width:390px;    
     }
     small{
     @extend p;
     font-size:14px;
     display:block;
-    clear:right; 
+    clear:right;
+        color:#585856;
+    background:none;  
+        padding-top:0;
+        max-width:auto;
         
         
     }
