@@ -1,253 +1,316 @@
+
 //Reset
 * {
     margin: 0;
     padding: 0;
 }
+main {
+    overflow-x: hidden;
+}
 //Media Queries
 @media only screen and (min-width: 320px) {
+    
   
-    .form{
-    width:100%;
-    float:none;
-      
-        
-    } 
-    
-    
-    #topo,.formulario{
-    padding-bottom:20px;    
-        
-        
+    .form {
+        width: 100%;
+        float: none;
+    }
+    #topo,
+    .formulario {
+        padding-bottom: 20px;
+        input.empresa {
+            margin-top: 15px;
+        }
+    }
+    #topo {
+        .bt-cl-action {
+            width: 80%!important;
+        }
+        .form-control {
+            .col-sm-6 {
+                margin-top: 10px!important;
+            }
+        }
+    }
+    .seta {
+        width: 100%;
+    }
+    #clientes {
+        height: auto;
+        ul {
+            margin: 0 auto;
+            li {
+                display: table;
+                margin: 0 auto;
+                list-style: none;
+                margin-top: 2%;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+        }
+    }
+    #depoimentos {
+        background-size: cover!important;
+    }
+    .depoimento {
+        text-align: center;
+    }
+    .a-melhor-agencia {
+        background-size: cover!important;
+        h2 {
+            padding-top: 25px;
+        }
+    }
+    .social {
+        float: none;
+    }
+    #consultoria-gratuita {
+        .bt-cl-action {
+            width: 100%!important;
+            font-size: 14px!important;
+        }
     }
     
-    .bt-cl-action{
-    width:80%!important;    
-        
-    } 
-    
-    .seta{
-    width:100%;    
+    #cases,.depoimento,footer{
+      padding-right:25px;
+        padding-left:25px;
         
     }
-    
-    #clientes{
-height:auto;
-    ul{
-        margin:0 auto;    
-        li{
-    display:table; 
-     margin:0 auto;    
-     list-style:none; 
-      margin-top:2%;
-       padding-bottom:20px;padding-top:20px;
-             
-        } 
-  
-    
 }
-
-    }
-    
-    .depoimento{
-    text-align:center;    
-        
-        
-    }   
-
-    
-    
-}
-
-@media only screen and (min-width: 480px) {
-    
-    
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {} @media only screen and (min-width: 768px) {
     #topo {
         .container {
             padding: 3.5% 3.5% 1.5% 3.5%;
         }
+        .form {
+            width: 40.7%;
+            float: right;
+        }
+        
+           .formulario{
+           input.empresa {
+            margin-top: 0px!important;
+        }    
+               
     }
-  .form{
-         width:40.7%;
-         float:right;
+    }
+    .seta {
+        width: 35%;
+    }
+    .formulario {
+        padding-bottom: 20px;
+        input.empresa {
+            margin-top: 15px;
+        }
+    }
+        .depoimento {
+            text-align: center;
+            margin: 0 auto;
+            figure {
+                width: 225px;
+                float: left;
+            }
+            p {
+                display: table;
+                margin: 0 auto;
+            }
+            img {
+                margin-right: 27px;
+            }
             
-        } 
-    
-    .seta{
-    width:35%;    
-        
-    }
-    
-  .depoimento{
-     text-align:center;   
-    margin:0 auto;  
-    
-   figure{
-        
-    width:225px; 
-    float:left;
-       
-   
-    }
-      
-      p{display:table; margin: 0 auto;}  
-      
-      
-    img{
-    
-        margin-right:27px;
-        
-    } 
-    
-        
-}  
-    
-    
-    
-}  
-    
-    
-
-@media only screen and (min-width: 992px) {
-    
-    #clientes{
-height:115px;
-    ul{
-        margin:0 auto;    
-        li{
-        display:inline-block;    
-        list-style:none; 
-            margin-right:52px;
-            margin-top:2%;
-            padding-top:0;
-            &:nth-child(7){
-            margin-right:0; 
-                
-            }   
-        } 
-    
-      
-    
-    
-}
-
-    }
-    
-     .depoimento{
-         text-align:left;
-    
-} 
-    
-}
-
-
-
-@media only screen and (min-width: 1200px) {
-    .container {
-        width: 1156px;
-    }
-    
-    .google-partner{
-     img{
-     max-width:373px;
-     height:auto;    
-        
-        
-    }
-        
-          
- 
-}
-    
-    .a-melhor-agencia{
-    width:41.4%    
-        
-    }    
-}
- 
-//Mixins
-@mixin border-radius($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
-    -o-border-radius: $radius;
-    border-radius: $radius;
-}
-@mixin box-shadow-form ($shadow_form){
-box-shadow:$shadow_form;     
-}
-
-
-
-// Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,700,700italic,900italic,400italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-//Variáveis
-$lato_font:'Lato',
-sans-serif;
-$font_open_sans:'Open Sans', sans-serif;
-$h1_color: #252525;
-$font_italic:italic;
-$bold_italic:900;
-$light_italic:100;
-$subtit_color:#f15b27;
-$blue_sec_color:#e0eaf6;
-$fundo_form:#547dbe;
-$bt-cl-action:#41c90c;
-$size-cl-action:268px;
-
-//Classes
-.text-center{text-align:center;}
-.text-right{text-align:right;}
-
-
-
-.form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #fff;
-    border-radius:8px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-.bt-cl-action{
- @include border-radius(8px);
-text-align:center;    
-transition: all 0.5s ease;    
-background-color:$bt-cl-action;
-color:#fff;
-width: $size-cl-action; 
-border:0;
-font-family:$lato_font;
-font-weight:bold;
-text-transform:uppercase;
-font-size:13px;
-height:47px;
-    display:block;
-    line-height:47px;
-    margin: 0 auto;
-    &:hover{
-    background-color:#319509;    
-        
-    }
-    
-     &:focus{
-         color:#fff; 
+            
             
         }
     
 }
-
+    @media only screen and (min-width: 992px) {
+        .container{padding-left:15px; padding-right:15px;}
+        #clientes {
+            height: 115px;
+            ul {
+                margin: 0 auto;
+                li {
+                    display: inline-block;
+                    list-style: none;
+                    margin-right: 52px;
+                    margin-top: 2%;
+                    padding-top: 0;
+                    &:nth-child(7) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .depoimento {
+            text-align: left;
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        .seta {
+            width: 45%;
+        }
+        #conheca-nossos-servicos {
+            .servicos {
+                min-height: auto;
+            }
+        }
+        footer {
+            .copyright {
+                padding-left: 36px;
+            }
+        }
+    }
+    @media only screen and (min-width: 1200px) {
+        #topo {
+            background-image: url(../images/fundo-setas.gif);
+            background-repeat: no-repeat;
+            background-position: top center;
+            .form {
+                margin-right: 44px;
+             .form-group{
+              .col-sm-6{
+                  .form-control{
+                    width:97%;  
+                      
+                  }
+              
+                 
+            }
+                 
+                 .col-sm-12{
+                     input{width:98%; }  
+                     textarea{width:98%; }
+                     
+                 }     
+            }
+        }
+        }
+        .container {
+            width: 1156px;
+        }
+        .google-partner {
+            img {
+                max-width: 373px;
+                height: auto;
+            }
+        }
+        .seta {
+            width: 35%;
+        }
+        .a-melhor-agencia {
+            width: 41.4%
+        }
+        #consultoria-gratuita {
+            .form {
+                margin: 0 auto;
+                float: none;
+                width: 60.8%;
+            }
+            .bt-cl-action {
+                span {
+                    display: inline-block!important;
+                }
+            }
+        }
+   
+}
+    //Mixins
+    @mixin border-radius($radius) {
+        -webkit-border-radius: $radius;
+        -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+        -o-border-radius: $radius;
+        border-radius: $radius;
+    }
+    @mixin box-shadow-form ($shadow_form) {
+        box-shadow: $shadow_form;
+    }
+    // Google Fonts
+    @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,700,700italic,900italic,400italic);
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+    @import url(https://fonts.googleapis.com/css?family=Dosis);
+    //Variáveis
+    $lato_font:'Lato',
+    sans-serif;
+    $font_open_sans:'Open Sans',
+    sans-serif;
+    $dosis_font: 'Dosis',
+    sans-serif;
+    $h1_color: #252525;
+    $font_italic:italic;
+    $bold_italic:900;
+    $light_italic:100;
+    $semi_light: 300;
+    $subtit_color:#f15b27;
+    $blue_sec_color:#e0eaf6;
+    $fundo_form:#547dbe;
+    $bt-cl-action:#41c90c;
+    $size-cl-action:268px;
+    //Classes
+    .text-center {
+        text-align: center;
+    }
+    .text-right {
+        text-align: right;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+    .bt-cl-action {
+        @include border-radius(8px);
+        text-align: center;
+        transition: all 0.5s ease;
+        background-color: $bt-cl-action;
+        color: #fff;
+        width: $size-cl-action;
+        border: 0;
+        font-family: $lato_font;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+        height: 47px;
+        display: block;
+        line-height: 47px;
+        margin: 0 auto;
+        &:hover {
+            background-color: #319509;
+        }
+        &:focus {
+            color: #fff;
+        }
+    }
+    ::-webkit-input-placeholder {
+        color: #878787;
+        font-family: $dosis_font;
+        font-size: 15px;
+    }
+    font-size:-moz-placeholder {
+        color: #878787;
+        font-family: $dosis_font;
+        font-size: 15px;
+    }
+    ::-moz-placeholder {
+        color: #878787;
+        font-family: $dosis_font;
+        font-size: 15px;
+    }
+    :-ms-input-placeholder {
+        color: #878787;
+        font-family: $dosis_font;
+        font-size: 15px;
+    }

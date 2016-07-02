@@ -1,0 +1,74 @@
+#consultoria-gratuita {
+    background-color: $blue_sec_color;
+    min-height: 800px;
+    text-align: center;
+    h2 {
+        font-family: $lato_font;
+        font-size: 50px;
+        font-style: $font_italic;
+        font-weight: $bold_italic;
+        color: #323231;
+        margin-top: 90px;
+    }
+    h3 {
+        @extend h2;
+        font-size: 35px;
+        font-style: $font_italic;
+        font-weight: $semi_light;
+        margin-top: 0;
+    }
+    .formulario {
+        padding-top: 58px;
+        box-shadow: none;
+        background-color: #2d6fa0;
+        margin-top: 85px;
+        .bt-cl-action {
+            margin-top: 34px;
+            font-size: 15.4px;
+            max-width: 338px;
+            height: 54px;
+        }
+    }
+    .form-control {
+        padding: 6px 12px;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 9px;
+    }
+    :-webkit-input-placeholder {
+        font-size: 19px;
+    }
+    :-moz-placeholder {
+        font-size: 19px;
+    }
+    ::-moz-placeholder {
+        font-size: 19px;
+    }
+    :-ms-input-placeholder {
+        font-size: 19px;
+    }
+    .form-group {
+        margin-bottom: 0px;
+    }
+}
+footer {
+    background-color: #f2f2f2;
+    min-height: 39px;
+    line-height: 39px;
+    font-family: $dosis_font;
+    font-size: 15px;
+    .copyright{
+        padding-top:8px;   
+    
+}
+.social {
+    
+    li {
+        
+        display: inline;
+        list-style: none;
+        img{margin-top:20px}
+    }
+}
+    
+}

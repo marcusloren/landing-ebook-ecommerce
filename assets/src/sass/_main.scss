@@ -1,170 +1,173 @@
-
-
-
-#conheca-nossa-consultoria-ecommerce{
-background-color:#323231;
-    
-    h2{
-      font-family:$lato_font;
-        font-size:35px;
-        font-style:$font_italic;
-        font-weight:$bold_italic;
-        color:#fff;
-        margin-top:90px;
-       
-        
+#conheca-nossa-consultoria-ecommerce {
+    background-color: #323231;
+    h2 {
+        font-family: $lato_font;
+        font-size: 35px;
+        font-style: $font_italic;
+        font-weight: $bold_italic;
+        color: #fff;
+        margin-top: 90px;
     }
-    
-    h3{
-    color:#fff;
-    font-size:19px;    
-     font-family:$font_open_sans;
-        font-weight:$bold_italic;
-        
-        
+    h3 {
+        color: #fff;
+        font-size: 19px;
+        font-family: $font_open_sans;
+        font-weight: $bold_italic;
     }
-    
-    img{
-    margin-top:97px;    
-        
+    img {
+        margin-top: 97px;
     }
-    
-    
-    
 }
-
-.seta{
- padding-bottom:70px;
-background:url(../images/seta.png) no-repeat left 10px;
+.seta {
+    padding-bottom: 70px;
+    background: url(../images/seta.png) no-repeat left 10px;
     margin: 90px auto 0 auto;
-    .bt-cl-action{
-    width:299px!important;
-        &:hover{
-        color:#fff;
-        text-decoration:none;    
-        }    
-    }  
-    
-}
-
-#depoimentos{
-background:url(../images/fundo-depoimentos.jpg)  top center;
-    margin-top:-20px;
-    min-height:597px;
-    
-    
-}
-
-.depoimentos{
-    
-    h2{
-     font-family:$lato_font;
-        font-size:35px;
-        font-style:$font_italic;
-        font-weight:$bold_italic;
-        margin-left:50px;
-        margin-top:86px;
-        margin-bottom:90px;
-        
-    }
-    
-}
-
-
-.a-melhor-agencia{
-background:#1d5486 url(../images/bg-a-melhor-agencia.jpg);
-min-height:583px;
-    text-align:center;
-    
-    h2{
-      font-family:$lato_font;   
-      font-style:$font_italic;
-      font-size:35px; 
-        font-weight:$light_italic;
-        color:#fff;
-        margin-top:98px;
-        
-    }
-    
-    h3{
-    font-family:$lato_font;   
-      font-weight:$bold_italic;
-        font-style:$font_italic;
-        text-transform:uppercase;
-        
-        
-      font-size:35px;    
-    color:#fff;   
-    width:90%;margin: 70px auto 100px auto;
-        position:relative;
-        min-height:129px;
-        padding-right:80px;
-        display:block;
-        background:url(../images/ico-decolar.png) no-repeat right 5px;
-    }
-    
-    .bt-cl-action{
-    width:299px!important;
-        &:hover{
-        color:#fff;
-        text-decoration:none;    
-        } 
-        
-        &:focus{
-         color:#fff; 
-            
+    .bt-cl-action {
+        width: 299px!important;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
         }
-            
-       
-    }   
-    
+    }
 }
-
-
-
-
-.depoimento{
-    
-    
-    
-    margin-bottom:15%;
-    
-    figure{
-        
-   
-    text-align:center; 
-    padding-bottom:5%;
-    }
-    img{
-    
-       
-        
-    } 
-    
-    p{
-    font-family:$lato_font;
-    font-size:19px;
-    font-style:$font_italic;
-    line-height:26px;
-     background:url(../images/stars-line.png) no-repeat top left;
-    padding-top:20px;
-    max-width:390px;    
-    }
-    small{
-    @extend p;
-    font-size:14px;
-    display:block;
-    clear:right;
-        color:#585856;
-    background:none;  
-        padding-top:0;
-        max-width:auto;
-        
-        
-    }
-    
-    
+#depoimentos {
+    background: url(../images/fundo-depoimentos.jpg) no-repeat top center;
+    margin-top: -20px;
+    min-height: 597px;
 }
-
-
-
+.depoimentos {
+    h2 {
+        font-family: $lato_font;
+        font-size: 35px;
+        font-style: $font_italic;
+        font-weight: $bold_italic;
+        margin-left: 50px;
+        margin-top: 86px;
+        margin-bottom: 90px;
+    }
+}
+.a-melhor-agencia {
+    background: #1d5486 url(../images/bg-a-melhor-agencia.jpg);
+    min-height: 583px;
+    text-align: center;
+    h2 {
+        font-family: $lato_font;
+        font-style: $font_italic;
+        font-size: 35px;
+        font-weight: $light_italic;
+        color: #fff;
+        margin-top: 98px;
+    }
+    h3 {
+        font-family: $lato_font;
+        font-weight: $bold_italic;
+        font-style: $font_italic;
+        text-transform: uppercase;
+        font-size: 35px;
+        color: #fff;
+        width: 90%;
+        margin: 70px auto 100px auto;
+        position: relative;
+        min-height: 129px;
+        padding-right: 80px;
+        display: block;
+        background: url(../images/ico-decolar.png) no-repeat right 5px;
+    }
+    .bt-cl-action {
+        width: 299px!important;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        &:focus {
+            color: #fff;
+        }
+    }
+}
+.depoimento {
+    margin-bottom: 15%;
+    figure {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    img {}
+    p {
+        font-family: $lato_font;
+        font-size: 19px;
+        font-style: $font_italic;
+        line-height: 26px;
+        background: url(../images/stars-line.png) no-repeat top left;
+        padding-top: 20px;
+        max-width: 390px;
+    }
+    small {
+        @extend p;
+        font-size: 14px;
+        display: block;
+        clear: right;
+        color: #585856;
+        background: none;
+        padding-top: 0;
+        max-width: auto;
+    }
+}
+#qualidades {
+    margin-top: 100px;
+}
+.qualidade {
+    text-align: center;
+    p {
+        font-family: $font_open_sans;
+        font-size: 14px;
+    }
+}
+#cases {
+    margin-bottom: 180px;
+    .rio-medical {
+        margin-top: 93px;
+    }
+    .futura {
+        margin-top: 140px;
+    }
+    .case {
+        h2 {
+            font-family: $lato_font;
+            font-size: 35px;
+            font-style: $font_italic;
+            font-weight: $bold_italic;
+            margin-bottom: 86px;
+        }
+        h3 {
+            color: #ff4800;
+            font-family: $lato_font;
+            font-size: 19px;
+            font-style: $font_italic;
+            font-weight: $bold_italic;
+        }
+        p {
+            @extend h3;
+            color: #000;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        ul {
+            li {
+                list-style: none;
+                @extend p;
+                &:before {
+                    content: '';
+                    display: inline-block;
+                    width: 5px;
+                    height: 5px;
+                    -moz-border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    border-radius: 5px;
+                    background-color: #ff4800;
+                    margin-right: 7px;
+                    position: relative;
+                    top: -5px;
+                }
+            }
+        }
+    }
+}

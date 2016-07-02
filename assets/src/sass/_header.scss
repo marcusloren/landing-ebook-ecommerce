@@ -30,40 +30,41 @@
         font-size: 17.68px;
     }
 }
-
-.google-partner{
-    h3{
-    padding-left:32px;
-    margin-bottom:5%;
-        
+.google-partner {
+    h3 {
+        padding-left: 32px;
+        margin-bottom: 5%;
     }
-       
 }
-
-.contatos{
-    p{
-      display:inline;  
-    font-size:12px; 
-        font-family:$lato_font;
-        font-weight:$light_italic;
+.contatos {
+    p {
+        display: inline;
+        font-size: 12px;
+        font-family: $lato_font;
+        font-weight: $light_italic;
     }
-    
-    
 }
-.aw5-logo{margin-right:24px; margin-left:34px;}
-
-.form{
-    
+.aw5-logo {
+    margin-right: 24px;
+    margin-left: 34px;
+    margin-top: 10px;
 }
-.formulario{
-    padding-left:20px; padding-right:20px;
-    min-height:462px;
-    background-color:$fundo_form;
+.form {}
+.formulario {
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 462px;
+    background-color: $fundo_form;
     @include box-shadow-form(3px 3px 4px 0px rgba(0, 0, 0, 0.37));
-    h4{color:#fff; padding-top:20px;
-        
+    h4 {
+        color: #fff;
+        padding-top: 20px;
+        margin-bottom:20px;
     }
-     .container{width:100%;}
-    textarea{min-height:194px;}
-    
+    .container {
+        width: 100%;
+    }
+    textarea {
+        min-height: 194px;
+    }
 }
